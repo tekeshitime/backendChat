@@ -6,7 +6,7 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server, {
   cors: {
-    origin: ["https://front-chat-bdcq3nqlk-tekeshitime.vercel.app/"],
+    origin: ["https://front-chat-zeta.vercel.app/"],
   },
 });
 
